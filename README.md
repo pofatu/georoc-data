@@ -1,6 +1,6 @@
 # georoc-data
 
-This repository provides a zipped SQLite database created with `pygeoroc` from
+This repository provides a zipped SQLite database created with `pygeoroc` v1.0.0 from
 the downloads provided by the GEOROC database.
 See [`INDEX.md`](INDEX.md) for details.
 
@@ -8,9 +8,9 @@ Cite GEOROC as
 
 > Sarbas, B., U.Nohl: The GEOROC database as part of a growing geoinformatics network. In: Brady, S.R., Sinha, A.K., and Gundersen, L.C. (editors): Geoinformatics 2008—Data to Knowledge, Proceedings: U.S. Geological Survey Scientific Investigations Report 2008-5172 (2008), pp. 42/43.
 
-and `pygeoroc` as
+and `pygeoroc` v1.0.0 as
 
-> Robert Forkel. (2020, April 9). pofatu/pygeoroc: Programmatic access to GEOROC data. Zenodo. http://doi.org/10.5281/zenodo.3744586
+> Robert Forkel. (2021, March 10). pofatu/pygeoroc: Programmatic access to GEOROC data (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4593385
 
 
 ## Workflow
