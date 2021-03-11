@@ -1,7 +1,8 @@
 # georoc-data
 
-This repository provides a zipped SQLite database created with `pygeoroc` v1.0.1 from
-the downloads provided by the GEOROC database.
+This repository provides a zipped SQLite database created with 
+[`pygeoroc` v1.0.1](https://pypi.org/project/pygeoroc/1.0.1/) from
+the downloads provided by the [GEOROC database](http://georoc.mpch-mainz.gwdg.de/georoc/).
 See [`INDEX.md`](INDEX.md) for details.
 
 Cite GEOROC as
@@ -17,7 +18,7 @@ and `pygeoroc` v1.0.1 as
 
 Install `pygeoroc`:
 ```shell
-pip install pygeoroc
+pip install pygeoroc==1.0.1
 ```
 
 Download the GEOROC data
