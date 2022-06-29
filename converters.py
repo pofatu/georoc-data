@@ -30,97 +30,97 @@ FIELDS = {
 }
 
 COORDINATES = {
-    "Convergent_Margins_comp__BISMARCK_ARC_-_NEW_BRITAIN_ARC.csv": {
+    "2022-06-PVFZCE_BISMARCK_ARC_NEW_BRITAIN_ARC.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__IZU-BONIN_ARC.csv": {
+    "2022-06-PVFZCE_IZU-BONIN_ARC.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__KERMADEC_ARC.csv": {
+    "2022-06-PVFZCE_KERMADEC_ARC.csv": {
         'latitude': CONVERTERS.negative,
     },
-    "Convergent_Margins_comp__LUZON_ARC.csv": {
+    "2022-06-PVFZCE_LUZON_ARC.csv": {
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__MARIANA_ARC.csv": {
+    "2022-06-PVFZCE_MARIANA_ARC.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__NEW_CALEDONIA.csv": {
+    "2022-06-PVFZCE_NEW_CALEDONIA.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': lambda old, data, _: 163.0
         if data['LOCATION'].startswith("NEW CALEDONIA / NEW CALEDONIA / POYA TERRANE")
            and int(old) == -21
         else CONVERTERS.positive(old)
     },
-    "Convergent_Margins_comp__NEW_HEBRIDES_ARC_-_VANUATU_ARCHIPELAGO.csv": {
+    "2022-06-PVFZCE_NEW_HEBRIDES_ARC_VANUATU_ARCHIPELAGO.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.positive,
     },
-    "Convergent_Margins_comp__NEW_ZEALAND.csv": {
+    "2022-06-PVFZCE_NEW_ZEALAND.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__SOLOMON_ISLAND_ARC.csv": {
+    "2022-06-PVFZCE_SOLOMON_ISLAND_ARC.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__SULAWESI_ARC.csv": {
+    "2022-06-PVFZCE_SULAWESI_ARC.csv": {
         'longitude': CONVERTERS.positive
     },
-    "Convergent_Margins_comp__TONGA_ARC.csv": {
+    "2022-06-PVFZCE_TONGA_ARC.csv": {
         'latitude': CONVERTERS.negative,
     },
-    "Convergent_Margins_comp__YAP_ARC.csv": {
+    "2022-06-PVFZCE_YAP_ARC.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': lambda old, data, _: old
         if ("TONGA ARC / FIJI ISLANDS" in data['LOCATION'])
            or ("TONGA ARC / LAU BASIN" in data['LOCATION'])
         else CONVERTERS.positive(old)
     },
-    "Ocean_Island_Groups_comp__AUSTRAL-COOK_ISLANDS.csv": {
+    "2022-06-WFJZKY_AUSTRAL-COOK_ISLANDS.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__CAROLINE_ISLANDS.csv": {
+    "2022-06-WFJZKY_CAROLINE_ISLANDS.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.positive
     },
-    "Ocean_Island_Groups_comp__EASTER_SEAMOUNT_CHAIN_-_SALAS_Y_GOMEZ_RIDGE.csv": {
+    "2022-06-WFJZKY_EASTER_SEAMOUNT_CHAIN_SALAS_Y_GOMEZ_RIDGE.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__PITCAIRN-GAMBIER_CHAIN.csv": {
+    "2022-06-WFJZKY_PITCAIRN-GAMBIER_CHAIN.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__HAWAIIAN_ISLANDS_part1.csv": {
+    "2022-06-WFJZKY_HAWAIIAN_ISLANDS_part1.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__HAWAIIAN_ISLANDS_part2.csv": {
+    "2022-06-WFJZKY_HAWAIIAN_ISLANDS_part2.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__HAWAIIAN-EMPEROR_CHAIN.csv": {
+    "2022-06-WFJZKY_HAWAIIAN-EMPEROR_CHAIN.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__HAWAIIAN_ARCH_VOLCANIC_FIELDS.csv": {
+    "2022-06-WFJZKY_HAWAIIAN_ARCH_VOLCANIC_FIELDS.csv": {
         'latitude': CONVERTERS.positive,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__SOCIETY_ISLANDS.csv": {
+    "2022-06-WFJZKY_SOCIETY_ISLANDS.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },
-    "Seamounts_comp__s_SAMOAN_ISLANDS.csv": {
+    "2022-06-JUQK7N_s_SAMOAN_ISLANDS.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },
-    "Ocean_Island_Groups_comp__SAMOAN_ISLANDS.csv": {
+    "2022-06-WFJZKY_SAMOAN_ISLANDS.csv": {
         'latitude': CONVERTERS.negative,
         'longitude': CONVERTERS.negative
     },

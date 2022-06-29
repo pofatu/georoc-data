@@ -1,45 +1,35 @@
 # georoc-data
 
 This repository provides a zipped SQLite database created with 
-[`pygeoroc` v1.0.1](https://pypi.org/project/pygeoroc/1.0.1/) from
-the downloads provided by the [GEOROC database](http://georoc.mpch-mainz.gwdg.de/georoc/).
+[`pygeoroc`](https://pypi.org/project/pygeoroc/2.0.0/) from
+precompiled datasets of [GEOROC data provided by DIGIS](https://data.goettingen-research-online.de/dataverse/digis).
 See [`INDEX.md`](INDEX.md) for details.
 
 Cite GEOROC as
 
-> Sarbas, B., U.Nohl: The GEOROC database as part of a growing geoinformatics network. In: Brady, S.R., Sinha, A.K., and Gundersen, L.C. (editors): Geoinformatics 2008—Data to Knowledge, Proceedings: U.S. Geological Survey Scientific Investigations Report 2008-5172 (2008), pp. 42/43.
+> DIGIS Team, 2022, "GEOROC Compilation: Archaean Cratons", https://doi.org/10.25625/1KRR1P, GRO.data, V3
 
-and `pygeoroc` v1.0.1 as
+> DIGIS Team, 2022, "GEOROC Compilation: Complex Volcanic Settings", https://doi.org/10.25625/1VOFM5, GRO.data, V3
 
-> Robert Forkel. (2021, March 11). pofatu/pygeoroc: Programmatic access to GEOROC data (Version v1.0.1). Zenodo. http://doi.org/10.5281/zenodo.4596426
+> DIGIS Team, 2022, "GEOROC Compilation: Continental Flood Basalts", https://doi.org/10.25625/WSTPOX, GRO.data, V3
 
+> DIGIS Team, 2022, "GEOROC Compilation: Convergent Margins", https://doi.org/10.25625/PVFZCE, GRO.data, V3
 
-## Workflow
+> DIGIS Team, 2022, "GEOROC Compilation: Intraplate Volcanic Rocks", https://doi.org/10.25625/RZZ9VM, GRO.data, V3
 
-Install `pygeoroc`:
-```shell
-pip install pygeoroc==1.0.1
-```
+> DIGIS Team, 2022, "GEOROC Compilation: Ocean Basin Flood Basalts", https://doi.org/10.25625/AVLFC2, GRO.data, V3
 
-Download the GEOROC data
-```shell
-georoc download
-```
+> DIGIS Team, 2022, "GEOROC Compilation: Ocean Island Groups", https://doi.org/10.25625/WFJZKY, GRO.data, V3
 
-Create the SQLite database:
-```shell
-georoc createdb
-```
+> DIGIS Team, 2022, "GEOROC Compilation: Oceanic Plateaus", https://doi.org/10.25625/JRZIJF, GRO.data, V3
 
-Write a list of errata that were corrected when importing the data into SQLite:
-```shell
-georoc check > errata.log
-```
+> DIGIS Team, 2022, "GEOROC Compilation: Rift Volcanics", https://doi.org/10.25625/KAIVCT, GRO.data, V3
 
-Zip the database for upload:
-```
-gzip georoc.sqlite
-```
+> DIGIS Team, 2022, "GEOROC Compilation: Seamounts", https://doi.org/10.25625/JUQK7N, GRO.data, V3
+
+and `pygeoroc` as
+
+> Robert Forkel. (2022). pofatu/pygeoroc: Programmatic access to GEOROC data (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.6778850
 
 
 ## Usage
@@ -64,7 +54,7 @@ where
     r.id = c.reference_id
 group by
     r.id, r.reference
-order by samples desc limit 5
+order by samples desc limit 5;
 ```
 
 Number of samples | Reference
@@ -78,6 +68,6 @@ Number of samples | Reference
 
 ## Errata
 
-Some errata in the raw GEOROC data have been identified and `pygeoroc` provides a mechanism to fix these upon
+Some [errata](errata.log) in the raw GEOROC data have been identified and `pygeoroc` provides a mechanism to fix these upon
 loading the data into the SQLite database. This mechanism works with the configuration as specified in
 [`converters.py`](converters.py).

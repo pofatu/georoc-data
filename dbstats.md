@@ -2,7 +2,7 @@
 
 table        # rows
 ---------  --------
-file            476
-reference     15212
-sample       425691
-citation     455685
+file            451
+reference     16315
+sample       456915
+citation     487141
