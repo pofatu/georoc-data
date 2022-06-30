@@ -1,0 +1,66 @@
+{
+    "title": "GEOROC data as SQLite database derived from GEOROC Compilations provided by DIGIS Team",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "description": "<p>Cite the sources of this dataset as:</p>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Archaean Cratons\", https://doi.org/10.25625/1KRR1P, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Complex Volcanic Settings\", https://doi.org/10.25625/1VOFM5, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Continental Flood Basalts\", https://doi.org/10.25625/WSTPOX, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Convergent Margins\", https://doi.org/10.25625/PVFZCE, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Intraplate Volcanic Rocks\", https://doi.org/10.25625/RZZ9VM, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Ocean Basin Flood Basalts\", https://doi.org/10.25625/AVLFC2, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Ocean Island Groups\", https://doi.org/10.25625/WFJZKY, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Oceanic Plateaus\", https://doi.org/10.25625/JRZIJF, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Rift Volcanics\", https://doi.org/10.25625/KAIVCT, GRO.data, V3</p></blockquote>\n\n<blockquote><p>DIGIS Team, 2022, \"GEOROC Compilation: Seamounts\", https://doi.org/10.25625/JUQK7N, GRO.data, V3</p></blockquote>",
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/1KRR1P",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/1VOFM5",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/WSTPOX",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/PVFZCE",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/RZZ9VM",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/AVLFC2",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/WFJZKY",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/JRZIJF",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/KAIVCT",
+            "relation": "isCitedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "doi:10.25625/JUQK7N",
+            "relation": "isCitedBy"
+        }
+    ]
+}
