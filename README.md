@@ -34,16 +34,18 @@ and `pygeoroc` as
 
 ## Usage
 
-After unzipping the database, it can be queried using the
+After unzipping [the database](georoc.sqlite.gz), it can be queried using the
 [SQLite command line shell](https://sqlite.org/cli.html):
 
-```
-sqlite3 georoc.sqlite
+```shell
+$ sqlite3 georoc.sqlite
 ...
 sqlite>
 ```
 
-We can - for example - list the 5 references with the highest number of samples:
+To look at the database schema, run `sqlite3 georoc.sqlite .schema` or look at [dbschema.sql](dbschema.sql).
+
+We can - for example - list the 5 references with the highest number of samples running the following SQL query:
 
 ```sql
 select
