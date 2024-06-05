@@ -123,3 +123,4 @@ dmypy.json
 .pyre/
 .idea/
 georoc.sqlite
+.DS_Store
